@@ -29,3 +29,7 @@ by using this project, these are the potential goal we can accomplish:
 
 Coding Languages: NodeJS (Backend), React (Frontend), PostgreSQL
 Tools: Docker, k8s , VSCode, DBeaver
+
+
+## 5. DEMO
+https://1drv.ms/b/c/47bf992fc149e62c/EfH984WaLw9AsIbnDXPrXcEB06NHQqN8St2Cqx1cNiSRsg?e=afz138
