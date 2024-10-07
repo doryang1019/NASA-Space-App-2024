@@ -33,3 +33,6 @@ Tools: Docker, k8s , VSCode, DBeaver
 
 ## 5. DEMO
 https://1drv.ms/b/c/47bf992fc149e62c/EfH984WaLw9AsIbnDXPrXcEB06NHQqN8St2Cqx1cNiSRsg?e=afz138
+
+## 6. HACKATHON WEBSITE LINK
+https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/astromind/?tab=project
