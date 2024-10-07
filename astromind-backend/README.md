@@ -1,4 +1,4 @@
-# WiMRnDNS Backend
+# ASTRONMIND Backend
 
 ## Feature
 - Express
@@ -6,33 +6,24 @@
 - TypeScript
 - TSLint
 
-## 套件
-![](https://i.imgur.com/iuMG1Xb.png)
-
 ## Project
 **backend**
 ```
 .
 ├── docs                  // swagger document
 ├── node_modules
-├── public                // 掛載前端頁面，前端打包好的js, html
-├── ssl                   // .pem for https
 ├── src
-│   ├── config
-│   |   ├── database.ts   // typeorm主要設定檔
-│   |   └── migration.ts  // typeorm設定檔，for migration script
-│   ├── controller        // 解析API傳進的參數，並呼叫Service
-│   ├── entity            // typeorm定義資料表及資料欄位
-│   ├── middleware        // Route使用的Middleware
-│   ├── migration         // typeorm migration用
-│   ├── model             // DB CRUD
-│   ├── services          // API主要商業邏輯
+│   ├── controller
+│   ├── entity
+│   ├── migration
+│   ├── model
+│   ├── services
 │   ├── utils
-│   ├── validate          // API parameter validation
-│   ├── index.ts          // Node Server主程式
-│   └── routes.ts         // API Routes
+│   ├── validate
+│   ├── index.ts
+│   └── routes.ts
 ├── .editorconfig
-├── .env                  // 預設環境變數
+├── .env
 ├── .gitignore
 ├── Dockerfile
 ├── nodemon.json
@@ -46,14 +37,12 @@
 
 ## Script
 
-| `npm run <script>` | 說明                                                                         |
+| `npm run <script>` | Description                                                                  |
 |--------------------|------------------------------------------------------------------------------|
-| `dev`              | 開發用，啟動Node Server在 3000 port，包含前端頁面及API      |
-| `build`            | 編譯Typescript並輸出到 out 資料夾下                       |
-| `start`            | 部署環境啟動Node Server用，執行編譯後out資料夾底下程式        |
-| `migrate:up`       | 執行migration up SQL                                    |
-| `migrate:down`     | 執行migration down SQL                                  |
-| `migrate:generate` | 比較Entity與Database差異，並產生migration sql             |
+| `dev`              | initial Node Server                                                          |
+| `migrate:up`       | migration up SQL                                                             |
+| `migrate:down`     | migration down SQL                                                           |
+| `migrate:generate` | compare Entity & Database difference and generate migration sql              |
 
 ## How to use typeorm CLI?
 
